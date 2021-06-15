@@ -1,0 +1,35 @@
+html {
+    background-color: #6ED890 ;
+  }
+  h1 {
+    font-size: 50px; 
+    font-family: "Open Sans", sans-serif; 
+        margin: 0;
+        padding: 8px 0;
+        color: #4E4B96;
+        text-shadow: 3px 3px 1px black;
+            animation-duration: 3s;
+            animation-name: slidein;
+          }
+          
+          @keyframes slidein {
+            from {
+              margin-right: -100%;
+              width: 300%
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
+  h2,ul {
+    font-size: 25px; 
+    font-family: "Open Sans", sans-serif; 
+  }
+  img {
+    position: relative;
+    top: -390px; 
+    left: 490px;
+    display: block;
+  }
